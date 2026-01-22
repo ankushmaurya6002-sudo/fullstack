@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: white;
+    color: black;
+}
+
+.title {
+    text-align: center;
+    margin: 20px;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    padding: 30px;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Dark theme */
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.btn-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
